@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.blocks {
+  background-color: #fff;
+  margin: 10px;
+  text-align: justify;
+}
+.blocks p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.blocks ul li {
+  font-size: 18px;
+  font-weight: 600;
+}
+.blocks_heading {
+  text-align: center;
+  background-color: #006631;
+  color: white;
+  font-size: 35px;
+  font-variant: small-caps;
+}
+.read_button {
+  background-color: #008194;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: 0.6s ease;
+}
+.read_button:hover {
+  background-color: #006631;
+  border-radius: 1px;
+}
+.read_button a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+table {
+  width: 100%;
+}
+.date {
+  background-color: #00ff00;
+  padding: 10px;
+}
+.event {
+  background-color: #00c3ff;
+  padding: 10px;
+  font-variant: small-caps;
+  font-size: 25px;
+}
+.news {
+  border: solid black 2px;
+}
+.form {
+  font-size: 20px;
+}
+.form label {
+  margin: 20px 40px;
+}
+.form input {
+  font-size: 20px;
+  font-family: poppins;
+  outline: none;
+  transition: 0.6s;
+  width: 90%;
+  margin: 20px 40px;
+}
+.messages {
+  margin: 20px 40px;
+  font-size: 20px;
+  width: 90%;
+  font-family: poppins;
+  height: 100px;
+}
+.label span {
+  color: red;
+}
+.send {
+  background-color: #008194;
+  border: none;
+  padding: 20px 60px;
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+}
+.send:hover {
+  background-color: #006631;
+  border-radius: 0;
+}
+p.info {
+  font-size: 22px !important;
+  padding: 20px;
+}
+.info a {
+  color: blue;
+  transition: 0.6s;
+}
+.info a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.left,
+.right {
+  margin: 4px;
+  border: 2px solid black;
+}

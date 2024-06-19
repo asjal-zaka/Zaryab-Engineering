@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XPHMTPF3E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5XPHMTPF3E');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaryab Engineering, Contracting & Trading (Pvt.) Ltd.</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="shortcut icon" href="clear.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="js/all.js"></script>
+  <script src="https://kit.fontawesome.com/4abaeed044.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo"><img src="clear.png" alt="Logo Of Zaryab Engineering, Contracting & Trading (Pvt.) Ltd.">
+    </div>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <div class=" dropdown">
+          <button class="dropbtn">About Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="http://zaryab.pk/company-profile.html" class="active">Company Profile</a>
+            <a href="http://zaryab.pk/message-from-c.e.o.html">Message From C.E.O</a>
+            <a href="http://zaryab.pk/vision-mission-values.html">Vision,Mission And Values</a>
+            <a href="http://zaryab.pk/organizational-chart.html">Organizational Chart</a>
+          </div>
+        </div>
+        <a href="http://zaryab.pk/qhse.html">QHSE</a>
+        <a href="http://zaryab.pk/our-clients.html">Our Clients</a>
+        <a href="http://zaryab.pk/projects.html">Projects</a>
+        <a href="http://zaryab.pk/new-&-events.php">News And Events</a>
+        <a href="http://zaryab.pk/contact.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="blocks">
+      <h2 class="blocks_heading">
+        Contact Us
+      </h2>
+
+      <section class="w3l-simple-contact-form1" id="formsec">
+        <div class="contact-form section-gap">
+          <div class="wrapper">
+            <div class="text-center">
+              <h1 style="font-size: 40px; ">Send A Message</h1>
+            </div>
+            <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+              <div class="form-mid">
+                <form action="javascript:sendmail()" method="post">
+                  <div class="field">
+                    <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
+                  </div>
+                  <div class="field">
+                    <input type="email" class="form-control" name="Sender" id="Sender" placeholder="Email" required="">
+                  </div>
+                  <div class="field">
+                    <input type="tel" class="form-control" name="Phone" id="Phone" placeholder="Phone" required="">
+                  </div>
+                  <div class="field">
+                    <input type="text" class="form-control" name="Subject" id="Subject" placeholder="Subject"
+                      required="">
+                  </div>
+                  <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                    required=""></textarea>
+                  <button type="submit" class="btn btn-contact">Send Message</button>
+                  <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="blocks_heading">
+          Find Us
+        </h2>
+        <p class="info">
+          <i class="fas fa-map-marker-alt"></i> Address : 133-G, 2nd Floor, C.C.A., D.H.A. Phase-1, Lahore, Pakistan.
+          <br><br><i class="fas fa-phone"></i> Phone: +92 42 35690918-19.
+          <br><br><i class="fas fa-fax"></i> Fax: +92 42 35690919
+          <br><br><i class="fas fa-envelope-square"></i> Email: <a href="mailto:info@zaryab.pk">info@zaryab.pk</a>
+          <br><br><i class="fas fa-globe"></i> Website: <a href="https://zaryab.pk">https://zaryab.pk</a>
+        </p>
+      </section>
+      <!-- /contact1 -->
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+
+
+
+    </section>
+  </main>
+  <footer>
+    <center>
+      <a href="index.html">Home</a>
+      <a href="sitemap.html">Sitemap</a>
+      <a href="new-&-events.php">News & Events</a>
+      <a href="contact.html">Contact</a>
+    </center>
+    <p>© Copyright Zaryab Engineering Contracting and Trading (Private) Limited <span class="year"></span></p>
+  </footer>
+  <!-- CDNS -->
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sent() {
+      document.getElementById('formsec').innerHTML = '<center><h2>Message Sent <br> Thank You For Contacting Us.</h2></center>'
+    }
+    function sendmail() {
+
+      var name = $('#Name').val();
+      var email = $('#Sender').val();
+      var subject = $('#Subject').val();
+      var phone = $('#Phone').val()
+      var message = $('#Message').val();
+
+      // var body = $('#body').val();
+
+      var Body = '<h2> Name: ' + name + '</h2><br><h2> Email:  ' + email + '</h2><br><h2> Phone: ' + phone + '</h2><br><h2> Subject:  ' + subject + '</h2><br><h2> Message:  ' + message + '</h2>';
+      //console.log(name, phone, email, message);
+
+      Email.send({
+        SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+        To: 'info@zaryab.pk',
+        From: "contactzaryab@gmail.com",
+        Subject: "New Message From Zaryab Contact",
+        Body: Body
+      }).then(
+        message => {
+          //console.log (message);
+          if (message == 'OK') {
+            sent()
+          }
+          else {
+            console.error(message);
+            alert('There is error at sending message. ')
+
+          }
+
+        }
+      );
+
+
+
+    }
+
+
+  </script>
+</body>
+
+</html>
