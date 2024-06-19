@@ -1,8 +1,15 @@
 {
-    "functions": {
-        "api/**/*.php": { runtime: "vercel-php@0.6.0" },
-    },
-    "routes": [
-        { src: "/(.*)", dest: "/news-&-events.php" }
-    ],
+  "version": 2,
+  "builds": [
+    {
+      "src": "news-&-events.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/news-&-events.php",
+      "dest": "/news-&-events.php"
+    }
+  ]
 }
